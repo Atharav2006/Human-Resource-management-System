@@ -525,61 +525,6 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'ADMIN') {
         </div>
     </div>
 
-    <!-- Stats Bar -->
-    <div class="stats-bar">
-        <div class="stat-card">
-            <div class="stat-icon" style="background: var(--odoo-gradient);">
-                <i class="fas fa-users"></i>
-            </div>
-            <div class="stat-content">
-                <div class="stat-value">42</div>
-                <div class="stat-label">Total Employees</div>
-                <div class="stat-trend trend-up">
-                    <i class="fas fa-arrow-up"></i> +3 this month
-                </div>
-            </div>
-        </div>
-        
-        <div class="stat-card">
-            <div class="stat-icon" style="background: var(--odoo-gradient-success);">
-                <i class="fas fa-user-check"></i>
-            </div>
-            <div class="stat-content">
-                <div class="stat-value">38</div>
-                <div class="stat-label">Active Today</div>
-                <div class="stat-trend trend-up">
-                    <i class="fas fa-arrow-up"></i> 90.5%
-                </div>
-            </div>
-        </div>
-        
-        <div class="stat-card">
-            <div class="stat-icon" style="background: var(--odoo-gradient-warning);">
-                <i class="fas fa-clock"></i>
-            </div>
-            <div class="stat-content">
-                <div class="stat-value">5</div>
-                <div class="stat-label">Pending Requests</div>
-                <div class="stat-trend trend-down">
-                    <i class="fas fa-arrow-down"></i> -2 from yesterday
-                </div>
-            </div>
-        </div>
-        
-        <div class="stat-card">
-            <div class="stat-icon" style="background: var(--odoo-gradient-info);">
-                <i class="fas fa-calendar-check"></i>
-            </div>
-            <div class="stat-content">
-                <div class="stat-value">12</div>
-                <div class="stat-label">On Leave Today</div>
-                <div class="stat-trend">
-                    <i class="fas fa-minus"></i> Stable
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Dashboard Cards -->
     <div class="dashboard-cards">
         <!-- Add Employee -->
