@@ -1,0 +1,104 @@
+/* ===============================
+   Dayflow HRMS - Custom Styles
+   =============================== */
+
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0d6efd;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+}
+.navbar .nav-link:hover {
+    color: #dce6ff !important;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.card-header {
+    background-color: #ffffff;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 6px;
+    font-size: 14px;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+/* Tables */
+.table {
+    background-color: #fff;
+}
+.table th {
+    background-color: #f1f3f6;
+    font-weight: 600;
+}
+
+/* Dashboard stats */
+.stat-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.stat-box h4 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.stat-box p {
+    color: #777;
+    font-size: 13px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    font-size: 13px;
+    color: #777;
+    text-align: center;
+    margin-top: 30px;
+}
