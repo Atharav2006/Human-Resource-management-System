@@ -10,9 +10,6 @@ A web-based Human Resource Management System built with PHP. This application pr
 *   **Reporting Module**: Generate and view various HR reports.
 *   **User Authentication**: Secure login, registration, and password recovery (forgot password) system.
 
-## 🗂️ Project Structure
-
-The main directories and files are organized as follows:
 Human-Resource-Management-System/
 │
 ├── index.php                  # Landing / Login page
@@ -21,26 +18,26 @@ Human-Resource-Management-System/
 │
 ├── config/
 │   ├── db.php                 # Database connection
-│   ├── auth.php               # Session & authentication check
+│   └── auth.php               # Session & authentication check
 │
 ├── assets/
 │   ├── css/
 │   │   ├── bootstrap.min.css
-│   │   ├── style.css          # Custom styles
+│   │   └── style.css          # Custom styles
 │   │
 │   ├── js/
 │   │   ├── bootstrap.bundle.min.js
 │   │   ├── jquery.min.js
-│   │   ├── main.js            # Custom JS
+│   │   └── main.js            # Custom JavaScript
 │   │
 │   └── images/
 │       ├── logo.png
-│       ├── profile/
-│       │   └── default.png
+│       └── profile/
+│           └── default.png
 │
-├── uploads/
+├── uploads/                   # (Keep empty folders tracked)
 │   ├── profile_pictures/
-│   ├── documents/
+│   └── documents/
 │
 ├── admin/
 │   ├── dashboard.php
@@ -49,7 +46,7 @@ Human-Resource-Management-System/
 │   ├── attendance.php
 │   ├── leave_requests.php
 │   ├── payroll.php
-│   ├── reports.php
+│   └── reports.php
 │
 ├── employee/
 │   ├── dashboard.php
@@ -57,25 +54,27 @@ Human-Resource-Management-System/
 │   ├── edit_profile.php
 │   ├── attendance.php
 │   ├── apply_leave.php
-│   ├── payroll.php
+│   └── payroll.php
 │
 ├── includes/
 │   ├── header.php             # Common header
 │   ├── footer.php             # Common footer
-│   ├── navbar.php             # Navigation bar
+│   └── navbar.php             # Navigation bar
 │
 ├── actions/
 │   ├── login_action.php
 │   ├── register_action.php
 │   ├── attendance_action.php
 │   ├── leave_action.php
-│   ├── payroll_action.php
+│   └── payroll_action.php
 │
 ├── reports/
 │   ├── attendance_report.php
-│   ├── salary_slip.php
+│   └── salary_slip.php
 │
+├── .gitignore
 └── README.md
+
 
 ## 🛠️ Technology Stack
 
@@ -118,3 +117,4 @@ Thanks to these individuals for their contributions to this project:
 ## 📄 License
 
 This project does not have a specified license in the repository. Please contact the repository owner for details regarding usage and distribution.
+
