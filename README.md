@@ -10,6 +10,8 @@ A web-based Human Resource Management System built with PHP. This application pr
 *   **Reporting Module**: Generate and view various HR reports.
 *   **User Authentication**: Secure login, registration, and password recovery (forgot password) system.
 
+# Project File Structure .
+
 Human-Resource-Management-System/
 │
 ├── index.php                  # Landing / Login page
@@ -35,7 +37,7 @@ Human-Resource-Management-System/
 │       └── profile/
 │           └── default.png
 │
-├── uploads/                   # (Keep empty folders tracked)
+├── uploads/
 │   ├── profile_pictures/
 │   └── documents/
 │
@@ -57,9 +59,9 @@ Human-Resource-Management-System/
 │   └── payroll.php
 │
 ├── includes/
-│   ├── header.php             # Common header
-│   ├── footer.php             # Common footer
-│   └── navbar.php             # Navigation bar
+│   ├── header.php
+│   ├── footer.php
+│   └── navbar.php
 │
 ├── actions/
 │   ├── login_action.php
@@ -74,7 +76,6 @@ Human-Resource-Management-System/
 │
 ├── .gitignore
 └── README.md
-
 
 ## 🛠️ Technology Stack
 
@@ -117,4 +118,5 @@ Thanks to these individuals for their contributions to this project:
 ## 📄 License
 
 This project does not have a specified license in the repository. Please contact the repository owner for details regarding usage and distribution.
+
 
